@@ -44,7 +44,6 @@ static NSString *RedImageFileName = @"image2.png";
         [headers setValue:@"Sat, 19 Sep 2015 14:40:52 GMT" forKey:@"Last-Modified"];
         [headers setValue:@"Sun, 27 Sep 2015 19:20:00 GMT" forKey:@"Expires"];
         [headers setValue:@"55fd73f4-3e53" forKey:@"ETag"];
-        [headers setValue:@"max-age=3600000" forKey:@"Cache-Control"];
         
         return [OHHTTPStubsResponse responseWithFileAtPath:fixture
                                                 statusCode:200
